@@ -38,6 +38,9 @@ body{
   }
   &__divider{
     padding: 20px 0;
+    &--large{
+      display: none;
+    }
   }
   &__icon-box{
     position: absolute;
@@ -68,6 +71,15 @@ body{
   {
   .card{
     max-width: 600px;
+    &__divider{
+      padding: 20px 0;
+      &--large{
+        display: block;
+      }
+      &--small{
+        display: none;
+      }
+    }
   }
   }
 }
